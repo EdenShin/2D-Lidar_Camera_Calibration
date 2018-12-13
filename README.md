@@ -25,7 +25,7 @@ Second, take picture and also get lidar points(using rosbag).
 
 Third, change checker board's pose and repeat 1st and 2nd about 20 times.
 
-Fourth, do camera calibration using [matlab camera calibration toolbox](http://www.vision.caltech.edu/bouguetj/calib_doc/). You will get calib_Result.mat file.
+Fourth, do camera calibration using [matlab camera calibration toolbox](http://www.vision.caltech.edu/bouguetj/calib_doc/). You will get calib_Results.mat file.
 
 Fifth, using rosbag for transform point data as bin file.(using python ros nodes which are in prepare directory)
 
